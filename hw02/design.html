@@ -1,0 +1,59 @@
+<h1>User-First Designs</h1>
+<p>
+	<strong>As a new User, I should be able to create a new account</strong><br>
+
+	There should be a clearly marked register button on the homepage the user can press,
+	after which they can put in basic information such as username,
+	password, and email. Then a button should be available to submit the 
+	information and create the account<br><br>
+
+	<strong>As a user, I should be able to follow other users</strong><br>
+
+	If I see another user whose content I enjoy, I should be able to click
+	into their profile, and there should be a button that allows me to
+	follow them to see all of their new content.<br><br>
+
+	<strong>As a user, I should be able to post my own blog posts</strong><br>
+
+	There should be an available text field that allows me to write a post
+	and a button to allow me to publish it to the public. This should be available
+	if I am logged in and looking at my own account, or on the page where I can
+	see all other user's posts.<br><br>
+
+	<strong>As a user, I should be able to tag other users and use hashtags</strong><br>
+
+	If there is another user they would like to mention, or a popular
+	topic they would like to reference, they should be able to do so in their posts. 
+	the &#64; sign would allow users to reference other users,
+	and they can use the &#35; sign to mention a specific topic.<br><br>
+
+	<strong>As a user, I should be able to view other users posts</strong><br>
+
+	If I see a user I should be able to click onto another user
+	and view their page, along with all of their previous posts.
+</p>
+
+<h1>Data-First Designs</h1>
+<p>
+	<strong>There should be a page for account creation</strong><br>
+
+	FORMS: Username, Password, Email
+	The Database should have columns for each of these as well as a unique ID, with the constraint that if
+	the username or email is already taken, the account cannot be created. The database should 
+	also encrpyt passwords to keep them safe.
+
+	NEW: Fields for username, password, email, and a buttom to create the account
+	INDEX: List of accounts with usernames and maybe email addresses
+	SHOW: One account with their posts and their username and possible email address<br><br>
+
+	<strong>There should be a page for creating blog posts</strong><br>
+
+	Forms: Title, Text, Tags
+	The Database should have columns for each of these, and keep track of which user submitted them
+	separated by their unique ID. 
+
+	NEW: Fields for a title, the text, and the tags, with a button to publish the post
+	INDEX: Area that allows you to either see the whole posts, or a preview that allows you
+	to click and view the full post.
+	SHOW: THe selected post along with the user who submitted it, and tags at the bottom
+</p>
