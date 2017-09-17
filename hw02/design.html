@@ -35,25 +35,27 @@
 
 <h1>Data-First Designs</h1>
 <p>
-	<strong>There should be a page for account creation</strong><br>
+	<strong>RESOURCE 1: There should be a page for account creation</strong><br>
 
 	FORMS: Username, Password, Email
 	The Database should have columns for each of these as well as a unique ID, with the constraint that if
 	the username or email is already taken, the account cannot be created. The database should 
-	also encrpyt passwords to keep them safe.
+	also encrpyt passwords to keep them safe. The database should also keep track of their total number of
+	followers
 
-	NEW: Fields for username, password, email, and a buttom to create the account
-	INDEX: List of accounts with usernames and maybe email addresses
+	NEW: Fields for username, password, password confirmation, email, and a buttom to create the account
+	INDEX: List of accounts with usernames and maybe email addresses along with number of followers and blog posts	
 	SHOW: One account with their posts and their username and possible email address<br><br>
 
-	<strong>There should be a page for creating blog posts</strong><br>
+	<strong>RESOURCE 2: There should be a page for creating blog posts</strong><br>
 
-	Forms: Title, Text, Tags
+	Forms: Title, Text
 	The Database should have columns for each of these, and keep track of which user submitted them
-	separated by their unique ID. 
+	separated by their unique ID as well as number of likes.
 
-	NEW: Fields for a title, the text, and the tags, with a button to publish the post
+	NEW: Fields for a title, the text, and a button to publish the post
 	INDEX: Area that allows you to either see the whole posts, or a preview that allows you
-	to click and view the full post.
-	SHOW: THe selected post along with the user who submitted it, and tags at the bottom
+	to click and view the full post. It should also show the number of likes.
+	SHOW: THe selected post along with the user who submitted it, the number of likes, and tags at the bottom. If you
+	are the user who created it, you can also delete or edit the post
 </p>
